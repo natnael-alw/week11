@@ -1,0 +1,51 @@
+body{
+ background-color: blanchedalmond;
+
+}
+#bd{
+    background-color: blanchedalmond;
+}
+
+#btn{
+    padding: 4px;
+    width: 70px;
+    margin: 30px;
+    border-style: black double;
+    
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    font-size: 50px;
+    line-height: 75px;
+
+}
+#cellHolder{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    justify-content: center;
+    border-style: double;
+    border: #38ac2d;
+    /* color: rgb(red, green, blue); */
+    
+}
+#gameContainer{
+    border-radius: 25px;
+
+}
+#gameContainer, #alert, #tic, #restart{
+    font-family: "Marker", cursive;
+    text-align: center ;
+}
+#cellHover:hover, #cellHover:focus{
+      background-color: #fff;
+      color: #333;
+    }
+    /* transition-property: all;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  } */
